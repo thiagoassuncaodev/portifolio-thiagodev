@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Dev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="imagens/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="barra-navegacao">
+        <a href="/" class="icn-pag">Thiago Dev</a>
+    <header>
+        <nav><!--menu de navegacao-->
+            <ul>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="portifolio.html">Portifolio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+        <div><!--para agrupar containers sobre mim-->
+        <section class="sobre-mim">
+        <div class="sobre-mim-container">
+            <div class="texto-sobre-mim">
+            <h1 id="nome-digitando"></h1>
+            <p>Sou um estudante de Desenvolvimento Web, apaixonado por tecnologia, design e construção de experiências digitais funcionais e intuitivas.</p>
+            <p>Este portfólio é um reflexo do meu aprendizado, dedicação e vontade de crescer na área da tecnologia. Aqui você encontrará alguns dos meus trabalhos e habilidades técnicas.</p>
+            </div>
+        </div>
+        </section>
+    <main>
+        <div class="bloco-formacao-habilidades" id="formacao"><!--div para colocor as habilidades e formacao lado a lado-->
+            <div class="coluna formacao-academica">
+                <h2>Formação Acadêmica</h2>
+                    <div class="formacao-item">
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                    <p>Centro Universitário Internacional - Uninter</p>
+                    <p>Previsão de conclusão: 2027</p>
+                    </div>
+            </div>
+            <div class="coluna habilidades">
+                <h2>Minhas Habilidades</h2>
+                <div class="container-skills"> <!--cada uma dessas divs agrupam uma habilidade-->
+                    <div class="skill">
+                    <div class="info-skill">
+                        <img src="imagens/html.png" alt="Logo HTML" class="icone-tecnologia">
+                        <p>HTML</p>
+                    </div>
+                    <div class="barra-progresso">
+                        <div class="bar-html"></div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                    <div class="info-skill">
+                        <img src="imagens/css.png" alt="Logo CSS" class="icone-tecnologia">
+                        <p>CSS</p>
+                    </div>
+                    <div class="barra-progresso">
+                        <div class="bar-css"></div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                    <div class="info-skill">
+                        <img src="imagens/js.png" alt="Logo JavaScript" class="icone-tecnologia">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="barra-progresso">
+                        <div class="bar-javascript"></div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                    <div class="info-skill">
+                        <img src="imagens/sql-server.png" alt="Logo sql" class="icone-tecnologia">
+                        <p>SQL</p>
+                    </div>
+                    <div class="barra-progresso">
+                        <div class="bar-sql"></div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                    <div class="info-skill">
+                        <img src="imagens/python.png" alt="Logo python" class="icone-tecnologia">
+                        <p>PYTHON</p>
+                    </div>
+                    <div class="barra-progresso">
+                        <div class="bar-python"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+            </div>
+        </div>
+        <div class="container-contanto" id="contato"><!--container para as redes sociais-->
+            <h1>Entre em contato comigo</h1>
+            <div class="contato">
+                <a href="https://github.com/thiagoassuncaodev" target="_blank" class="icone-contato">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <!-- contato -->
+                <section id="contato">
+                <h1>Contato</h1>
+                <form>
+                    <!-- nome -->
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <!-- email -->
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <!-- mensagem -->
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                </section>
+           
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Feito por Thiago de Assunção ribeiro &copy;</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
